@@ -27,7 +27,7 @@ public class TreeStory {
                 console.printf("Please be nice. Try again. \n ");
                 System.exit(0);
             }
-        } while()
+        } while(noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
 
         String adverb = console.readLine("Enter an adverb:  ");
         String verb = console.readLine("Enter a verb ending with -ing:  ");
