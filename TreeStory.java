@@ -5,6 +5,12 @@ public class TreeStory {
     public static void main(String[] args) {
         Console console = System.console();
 
+        int age = 12;
+
+        if (age < 13) {
+            
+        }
+
         String name = console.readLine("Enter a name:  ");
         String adjective = console.readLine("Enter an adjective:  ");
         String noun = console.readLine("Enter a noun:  ");
