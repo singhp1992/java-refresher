@@ -18,15 +18,16 @@ public class TreeStory {
         String adjective = console.readLine("Enter an adjective:  ");
 
         String noun;
+        boolean isInvalidWord;
         do {
             noun = console.readLine("Enter a noun:  ");
+            isInvalidWord = (noun.equalsIgnoreCase("dork") || 
+                                    noun.equalsIgnoreCase("jerk"));
 
-            if(noun.equalsIgnoreCase("dork") || 
-                noun.equalsIgnoreCase("jerk") ||
-                noun.equalsIgnoreCase("nerd")){
+            if(isInvalidWord){
                 console.printf("Please be nice. Try again. \n ");
             }
-        } while(noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
+        } while(isInvalidWord);
 
         String adverb = console.readLine("Enter an adverb:  ");
         String verb = console.readLine("Enter a verb ending with -ing:  ");
