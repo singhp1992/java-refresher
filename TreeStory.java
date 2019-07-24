@@ -19,8 +19,9 @@ public class TreeStory {
         String noun = console.readLine("Enter a noun:  ");
 
         if(noun.equalsIgnoreCase("dork") || 
-            noun.equalsIgnoreCase("jerk")){
-            console.printf("Please be nice");
+            noun.equalsIgnoreCase("jerk") ||
+            noun.equalsIgnoreCase("nerd")){
+            console.printf("Please be nice. Bye. ");
             System.exit(0);
         }
 
