@@ -25,7 +25,6 @@ public class TreeStory {
                 noun.equalsIgnoreCase("jerk") ||
                 noun.equalsIgnoreCase("nerd")){
                 console.printf("Please be nice. Try again. \n ");
-                System.exit(0);
             }
         } while(noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
 
