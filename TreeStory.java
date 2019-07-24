@@ -11,5 +11,6 @@ public class TreeStory {
         String adverb = console.readLine("Enter an adverb:  ");
         String verb = console.readLine("Enter a verb ending with -ing:  ");
 
+        console.printf("Your TreeStory: \n----------\n");
     }
 }
