@@ -5,6 +5,11 @@ public class intro {
     public static void main(String[] args) {
         Console console = System.console();
 
-        console.printf("Hello, my name is Preeti");
+        String firstName = "Simon";
+
+
+
+        console.printf("Hello, my name is %s\n", firstName);
+        console.printf("%s is learning Java\n", firstName);
     }
 }
